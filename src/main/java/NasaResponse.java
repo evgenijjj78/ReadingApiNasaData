@@ -23,7 +23,7 @@ public class NasaResponse {
                         .build())
                 .build()) {
             String url = "https://api.nasa.gov/planetary/apod?api_key=";
-            String myKey = "yGZGIPzXLdkoLCCdzMMxPhHEgpsyZaBgcmqJBkHy";
+            String myKey = "...";
             url += myKey;
             int iter = 0;
             while (iter < 2) {
